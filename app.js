@@ -68,6 +68,8 @@ allStores.prototype.locationRender = function (){
     let tdElemSale = document.createElement('td');
     tdElemSale.textContent = this.hourlySales[i];
     trElem.appendChild(tdElemSale);
+
+    this.dailySoldTotal += this.hourlySales[i];
   }
   let dailySoldTD = document.createElement('td');
     dailySoldTD.textContent = this.dailySoldTotal;
@@ -124,6 +126,10 @@ function footerRender(){
 
 headerRender();
 Seattle.locationRender();
+Tokyo.locationRender();
+Dubai.locationRender();
+Paris.locationRender();
+Lima.locationRender();
 
 // let Seattle = {
 //   name: 'Seattle',
