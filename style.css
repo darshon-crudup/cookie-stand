@@ -102,10 +102,11 @@ img {
   margin-top: 25px;
   transform: translate(-45%, 90%);
 }
-socialIcons {
-  display: flex;
-  justify-content:center;
-}
+/* socialIcons {
+  font-size: 200px;
+  /* display: flex;
+  justify-content:center; */
+} */
 socialIcons a {
   text-decoration: none;
   padding: 0px;
@@ -154,4 +155,8 @@ text-align: left;
 }
 .copy {
   text-align: center;
+}
+i {
+  font-size: 40px;
+  padding: 2.4px;
 }
