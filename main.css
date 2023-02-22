@@ -1,0 +1,52 @@
+body {
+  background: black;;
+  color: white;
+}
+h2 {
+  color: white;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+}
+* {
+  margin:auto;
+  padding: auto;
+  font-family: 'Roboto';
+}
+.container {
+  background-color: fuchsia;
+  color:black;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.container input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: vertical;
+  border-radius: 10px;
+}
+
+#button {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+table th {
+  border: 1px solid white;
+  height: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-top: 15px;
+
+}
