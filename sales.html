@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <head>
   <title>Salmon Cookies</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <style>
     table, th, td {
       border: 1px solid black;
@@ -10,11 +13,26 @@
 
 <body>
   <header>
-    <nav><h2><a href="index.html">Home</a></h2></nav>
-
+    <h2>Salmon Cookie Sales</h2>
+    <!-- <nav><h2><a href="index.html">Home</a></h2></nav> -->
   </header>
   <main>
-    <h2>Salmon Cookie Sales</h2>
+
+    <div class="container">
+      <label for ="storeLocation">NEW STORE LOCATION</label>
+      <input type="text" id="storeLocation" name="storeLocation">
+
+      <label for ="minCust">MIN CUSTOMERS PER HOUR</label>
+      <input type="text" id="minCust" name="minCust">
+
+      <label for ="maxCust">MAX CUSTOMERS PER HOUR</label>
+      <input type="text" id="maxCust" name="maxCust">
+
+      <label for ="avgCookie">AVERAGE # OF COOKIES BOUGHT BY CUSTOMER</label>
+      <input type="text" id="avgCookie" name="avgCookie">
+      <input type="button" id="button" value="SUBMIT">
+
+    </div>
 
     <section id="salesdata">
       <table id="table"></table>
@@ -28,8 +46,12 @@
     </article> -->
 
   </main>
+  <script src="app.js"></script>
 </body>
-
-<footer>darshon crudup</footer>
-<script src="app.js"></script>
 </html>
+
+<!-- function AddRow() {
+  var AddRown=<document.getElementByID('show');
+} -->
+
+<!-- <footer>darshon crudup</footer> -->
